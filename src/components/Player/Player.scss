@@ -1,0 +1,32 @@
+.Player {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 5px 0;
+    height: 60px;
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+
+    .Player__name {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+
+    .Player__score {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+    
+    .Player__button {
+        margin: 0 5px;
+    }
+}
